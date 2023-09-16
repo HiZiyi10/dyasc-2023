@@ -10,9 +10,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "dyasc-2023/fibo2/**" ]
+    branches: [ "dyasc-2023" ]
   pull_request:
-    branches: [ "dyasc-2023/fibo2/**" ]
+    branches: [ "dyasc-2023" ]
 
 jobs:
   build:
